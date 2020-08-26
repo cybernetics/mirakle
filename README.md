@@ -96,6 +96,7 @@ mirakle {
     fallback true
     downloadInParallel true
     downloadInterval 2000
+    breakOnTasks = ["install", "package"] // regex pattern
 }
 ```
 ### Per-project config
